@@ -66,7 +66,7 @@ const Home = () => {
       </section>
 
       {/* About */}
-      <section className="about_section sec_ptb_120">
+      <section className="about_section sec_ptb_120" id="about">
         <div className="container">
           <div className="row align-items-center justify-content-lg-between">
             <div className="col-lg-6 col-md-6 order-last">
@@ -94,11 +94,6 @@ const Home = () => {
                 <p className="wow fadeInUp" data-wow-delay=".2s">
                   Back then, they were a simple retailer of whole beans and ground coffee, blended teas and spices. Then, the passion to share the happiness to other coffee lovers has naturally came. Lavia Roca welcomes you to a place, where we will not just satisfy your coffee cravings but where you’ll get to experience the variety of drinks worldwide conveniently.
                 </p>
-                <ul className="btns_group ul_li wow fadeInUp" data-wow-delay=".5s">
-                  <li>
-                    <a className="btn btn_primary text-uppercase" href="#about_page">Learn more</a>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
@@ -106,7 +101,7 @@ const Home = () => {
       </section>
 
       {/* offer section */}
-      <section className="offer_section">
+      <section className="offer_section" >
         <div className="container-fluid p-0">
           <div className="row g-0">
             <div className="col-lg-4">
@@ -142,7 +137,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="row g-0">
+              <div className="row g-0" id="offer">
                 <div className="offerinfo_col col-lg-4">
                   <div className="offer_info_item table_reservation_contact wow fadeInUp" data-wow-delay=".1s">
                     <h3 className="offer_info_title text-uppercase">Contact Us<i className="fal fa-heart"></i></h3>
@@ -165,11 +160,12 @@ const Home = () => {
                         <div className="item_icon"><i className="fas fa-fax"></i></div>
                         <div className="item_content">
                           <span>Central Perk, Greenwich Village</span>
-                          <span>(404 Place Not Found – yes, we can never be found)</span>
                         </div>
                       </li>
                     </ul>
-                    <a className="btn btn_secondary text-uppercase" href="contact.html">Contact Us</a>
+                    <a className="btn btn_secondary text-uppercase" href="contact.html">
+                      Follow Us
+                    </a>
                   </div>
                 </div>
 

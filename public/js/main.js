@@ -113,14 +113,6 @@
   // popup images & videos - end
   // --------------------------------------------------
 
-  function setSlideCount() {
-    var $el = $('.slide_count_wrap').find('.total');
-    if (slideCount < 10) {
-      $el.text('0' + slideCount);
-    } else {
-      $el.text(slideCount);
-    }
-  }
 
   var $timer = 6000;
   function progressBar() {

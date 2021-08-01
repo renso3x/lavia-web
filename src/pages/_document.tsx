@@ -27,7 +27,6 @@ class MyDocument extends Document {
 
             <Main />
 
-            <Footer />
           </div>
 
           <NextScript />

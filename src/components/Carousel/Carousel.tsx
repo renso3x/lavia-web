@@ -108,16 +108,16 @@ const Carousel = () => {
         <div className="container maxw_1560">
           <div className="row align-items-center justify-content-lg-between">
             <div className="col-lg-6 col-md-4 order-last">
-              <a className="popup_video video_btn1 text-uppercase wow fadeInRight" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
+              <a className="popup_video video_btn1 text-uppercase wow fadeInRight" href="https://www.youtube.com/watch?v=hS5eOmiPvTI">
                 <span className="pulse"><i className="fas fa-play"></i></span>
                 <small>Play video</small>
               </a>
             </div>
             <div className="col-lg-6 col-md-8">
               <ul className="social_links social_text ul_li text-uppercase wow fadeInLeft">
-                <li><a href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i> facebook</a></li>
-                <li><a href="https://twitter.com/"><i className="fab fa-twitter"></i> twitter</a></li>
-                <li><a href="https://www.youtube.com/"><i className="fab fa-youtube"></i> youtube</a></li>
+                <li><a href="https://facebook.com/laviaroca" target="_blank"><i className="fab fa-facebook-f"></i> facebook</a></li>
+                <li><a href="https://instagram.com/laviaroca" target="_blank"><i className="fab fa-instagram"></i> instagram</a></li>
+                <li><a href="https://shopee.ph/laviaroca" target="_blank"><i className="fa fa-store"></i> shopee</a></li>
               </ul>
             </div>
           </div>

@@ -26,6 +26,15 @@
   });
   var slideCount = null;
 
+  function setSlideCount() {
+    var $el = $('.slide_count_wrap').find('.total');
+    if (slideCount < 10) {
+      $el.text('0' + slideCount);
+    } else {
+      $el.text(slideCount);
+    }
+  }
+
   $('.main_slider').on('init', function (event, slick) {
     slideCount = slick.slideCount;
     setSlideCount();
