@@ -51,7 +51,7 @@ const Header = () => {
 
                   <ul className="header_btns_group ul_li_right">
                     <li>
-                      <a className="btn btn_primary text-uppercase" href="https://shopee.ph/laviaroca" target="_blank" rel="noreferrer">Show Now</a>
+                      <a className="btn btn_primary text-uppercase" href="https://shopee.ph/laviaroca" target="_blank" rel="noreferrer">Shop Now</a>
                     </li>
                   </ul>
                 </nav>
