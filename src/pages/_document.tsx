@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 
 import Document, { Html, Head, Main, NextScript} from 'next/document'
 import Header from '../components/Header'
@@ -11,13 +12,21 @@ class MyDocument extends Document {
       <Html lang="web">
         <Head>
           <link rel="shortcut icon" href="images/logo/favourite_icon.png" />
+          {/* eslint-disable-next-line @next/next/no-css-tags */}
           <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+          {/* eslint-disable-next-line @next/next/no-css-tags */}
           <link rel="stylesheet" type="text/css" href="css/fontawesome.css" />
-  	      <link rel="stylesheet" type="text/css" href="css/animate.css" />
+          {/* eslint-disable-next-line @next/next/no-css-tags */}
+          <link rel="stylesheet" type="text/css" href="css/animate.css" />
+          {/* eslint-disable-next-line @next/next/no-css-tags */}
           <link rel="stylesheet" type="text/css" href="css/slick.css" />
+          {/* eslint-disable-next-line @next/next/no-css-tags */}
           <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+          {/* eslint-disable-next-line @next/next/no-css-tags */}
           <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />
+          {/* eslint-disable-next-line @next/next/no-css-tags */}
           <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+          {/* eslint-disable-next-line @next/next/no-css-tags */}
           <link rel="stylesheet" type="text/css" href="css/style.css" />
         </Head>
         <body>

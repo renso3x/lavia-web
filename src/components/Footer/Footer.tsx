@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 const Footer = () => {
   return (
     <footer className="footer_section text-white deco_wrap">

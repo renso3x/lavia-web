@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useEffect } from 'react';
 
 const Carousel = () => {
@@ -115,9 +116,9 @@ const Carousel = () => {
             </div>
             <div className="col-lg-6 col-md-8">
               <ul className="social_links social_text ul_li text-uppercase wow fadeInLeft">
-                <li><a href="https://facebook.com/laviaroca" target="_blank"><i className="fab fa-facebook-f"></i> facebook</a></li>
-                <li><a href="https://instagram.com/laviaroca" target="_blank"><i className="fab fa-instagram"></i> instagram</a></li>
-                <li><a href="https://shopee.ph/laviaroca" target="_blank"><i className="fa fa-store"></i> shopee</a></li>
+                <li><a href="https://facebook.com/laviaroca" target="_blank" rel="noreferrer"><i className="fab fa-facebook-f"></i> facebook</a></li>
+                <li><a href="https://instagram.com/laviaroca" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i> instagram</a></li>
+                <li><a href="https://shopee.ph/laviaroca" target="_blank" rel="noreferrer"><i className="fa fa-store"></i> shopee</a></li>
               </ul>
             </div>
           </div>
